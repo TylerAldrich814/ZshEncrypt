@@ -85,12 +85,8 @@ decrypt(){
     return 0
   fi
 
-  # Newly create decrypted files possible edit time
   mod_time_after=$(stat -f "%m" $OUT_FILE)
-
   mod_time_diff=$((mod_time_after - mod_time_before))
-
-  _echo_yellow "Time Difference ${mod_time_diff}"
 
   if [ "$mod_time_diff" -gt 0 ]; then
     _echo_green "\nFile Change Difference Detected: Re-encrypting file now"
