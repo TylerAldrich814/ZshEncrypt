@@ -27,7 +27,7 @@ The script can be customized through several global variables:
 
 ### Usage
 
-####* Encrypting Files*
+#### *Encrypting Files*
 `$ encrypt <filename>`
 ```
 $ encrypt ./my_secret.txt
