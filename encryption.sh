@@ -23,7 +23,7 @@
 #
 #     -- GLOBAL VARIABLES
 
-## Opening a file in a edirtor MUST take 1 argument, i.e the file path
+## Opening a file in a editor MUST take 1 argument, i.e the file path
 EDITOR="nvim" # | "vim" | "nano" | "code" | ect..
 
 ## To automatically remove the raw file after successful encryption
